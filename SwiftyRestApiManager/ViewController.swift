@@ -8,11 +8,31 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController
+{
 
-    override func viewDidLoad() {
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        // This is how to call Rest Api Classes and Get Json Data
+        
+        /*
+        
+        let objStore:DemoStoreApi? = DemoStoreApi(baseUrl: "", accessToken:"")
+        
+        
+        objStore?.getStoreData({ (json) -> Void in
+            
+            print(json)
+            
+        })
+        
+        */
+
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
